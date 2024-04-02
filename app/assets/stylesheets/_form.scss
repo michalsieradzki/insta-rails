@@ -1,0 +1,16 @@
+input[type="email"], input[type="password"], input[type="text"] {
+  background-color: #fafafa;
+  border-radius: 4px;
+  font-size: 12px;
+  color: grey;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+
+  &:focus{
+    background-color: #fafafa;
+    box-shadow: none;
+    border-color: black;
+  }
+  
+}
